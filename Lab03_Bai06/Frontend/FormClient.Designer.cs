@@ -206,22 +206,22 @@
             // 
             btnSendImage.BackColor = SystemColors.ControlDark;
             btnSendImage.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSendImage.Location = new Point(498, 64);
+            btnSendImage.Location = new Point(676, 64);
             btnSendImage.Name = "btnSendImage";
             btnSendImage.Size = new Size(136, 34);
             btnSendImage.TabIndex = 8;
-            btnSendImage.Text = "GỬI";
+            btnSendImage.Text = "ẢNH";
             btnSendImage.UseVisualStyleBackColor = false;
             // 
             // btnSend
             // 
             btnSend.BackColor = SystemColors.ControlDark;
             btnSend.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSend.Location = new Point(676, 64);
+            btnSend.Location = new Point(498, 64);
             btnSend.Name = "btnSend";
             btnSend.Size = new Size(136, 34);
             btnSend.TabIndex = 7;
-            btnSend.Text = "ẢNH";
+            btnSend.Text = "GỬI";
             btnSend.UseVisualStyleBackColor = false;
             // 
             // txtMessage
@@ -281,3 +281,4 @@
         private Label lblTarget;
     }
 }
+
